@@ -9,6 +9,7 @@ const Navbar = () => {
         <Spacer />
         <Button as={Link} to="/about" colorScheme="teal" variant="ghost" color="white">About</Button>
         <Button as={Link} to="/contact" colorScheme="teal" variant="ghost" color="white">Contact</Button>
+        <Button as={Link} to="/create-event" colorScheme="teal" variant="ghost" color="white">Create Event</Button>
       </Flex>
     </Box>
   );
